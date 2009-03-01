@@ -5,7 +5,7 @@
 Summary:	Reverse Proxy (web accelerator) PHP compatibility layer
 Name:		php-%{modname}
 Version:	1.0.6
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		Development/PHP
 License:	PHP License
 URL:		http://fcartegnie.free.fr/patchs/txforward.html
