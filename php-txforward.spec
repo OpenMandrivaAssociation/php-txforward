@@ -8,7 +8,7 @@ Version:	1.0.7
 Release:	6
 Group:		Development/PHP
 License:	PHP License
-URL:		http://fcartegnie.free.fr/patchs/txforward.html
+URL:		https://fcartegnie.free.fr/patchs/txforward.html
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
