@@ -12,6 +12,11 @@ URL:		https://fcartegnie.free.fr/patchs/txforward.html
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	file
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
